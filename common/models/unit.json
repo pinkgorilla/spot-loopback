@@ -1,0 +1,33 @@
+{
+  "name": "Unit",
+  "base": "BaseModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "sub": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "locations": {
+      "type": "hasMany",
+      "model": "Location",
+      "foreignKey": "unitId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

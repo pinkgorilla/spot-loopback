@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "demo": {
+    "dataSource": "ds-elastic",
+    "public": true
+  },
+  "Unit": {
+    "dataSource": "ds-mongodb",
+    "public": true
+  },
+  "Location": {
+    "dataSource": "ds-mongodb",
+    "public": true
+  },
+  "Review": {
+    "dataSource": "ds-mongodb",
+    "public": true
+  },
+  "Account": {
+    "dataSource": "ds-mongodb",
+    "public": true
+  },
+  "BaseModel": {
+    "dataSource": null,
+    "public": false
+  }
+}

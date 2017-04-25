@@ -1,0 +1,43 @@
+{
+  "name": "Location",
+  "base": "BaseModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "geopoint",
+      "required": true
+    },
+    "phones": {
+      "type": [
+        "string"
+      ]
+    },
+    "images": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "reviews": {
+      "type": "hasMany",
+      "model": "Review",
+      "foreignKey": "locationId"
+    },
+    "postedBy": {
+      "type": "belongsTo",
+      "model": "Account",
+      "foreignKey": "accountId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
