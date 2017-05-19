@@ -41,5 +41,12 @@
         }
       }
     ]
+  },
+  "google-storage": {
+    "name": "regional-bucket-01-us",
+    "connector": "loopback-component-storage",
+    "provider": "google",
+    "keyFilename": "/file/spot-storage-5e984703f061.json",
+    "projectId": "spot-storage"
   }
 }

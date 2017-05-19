@@ -1,6 +1,6 @@
 {
-  "name": "Unit",
-  "base": "BaseModel",
+  "name": "Spot",
+  "base": "Model",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -8,7 +8,7 @@
   "properties": {
     "name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "string"
@@ -19,6 +19,15 @@
     "sub": {
       "type": "string"
     },
+    "position": {
+      "type": "geopoint",
+      "required": false
+    },
+    "phones": {
+      "type": [
+        "string"
+      ]
+    },
     "tags": {
       "type": [
         "string"
@@ -26,13 +35,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "locations": {
-      "type": "hasMany",
-      "model": "Location",
-      "foreignKey": "unitId"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

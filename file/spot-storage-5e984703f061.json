@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "spot-storage",
+  "private_key_id": "5e984703f06198f6ee615926151b68e5a309fa88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1CjcRGElGlkFO\nYGtURPVdFeOwCzO0zpSUfK3BE5yhFQCzSQNm21PUQTQvtjoqIzDuByF5XX9gx2bH\nvWQu3UunBcmWq4c+HbOpAxiDABJ4kCrD7Tb29ETs7dV9JvQC2XOkqu6gS1L0B/Ti\n1uuwdtEaare0yN5hRfMp3iu+WJzooVlymEesoXjpAu/yS4bM1gRTPWwEgE5ApK8t\n+Qo5QSvL6QW8h2yKOz+afAGOVT7wGGZK0redYa0aPzXHEMKiWq5/04PfFu4BbNU5\nQoNA10NlN7Uacpkba7JaZxm2OXWI8mJtByY9jBjcQji9bgpAm0H4T7nu1tz3HYdK\nX930h3qlAgMBAAECggEATIoWkOwnIqgo0RWTmuuSnrm/6vA5epIyH/r8TNpZSIME\nKkhOn2BP9zdf9GIDAkihiajLHrAIR+bVzdGE9wlJUEJyoXhAc+MDz4tHBC92H7G3\n2uDB8bOBJnhA36ol1MSRj0dTHsLpvdFVV8gMmi0Jp7UBmPWpiw+TSBqtfMqi//hr\nJwFmAh3KX6aZFhDeosXpqg+zsGrytfAPR1FAyOC1rbh69AIU8USlzgWE3hnW2PlE\nbTdqIIlP5EQiLOGWduD/6OCFpJ1/3zqCu/x8PHyT+I/6IYI1DbPls01xK8E+uZkv\n+36K11lwDmN1dKT4PB6sS2AwRtl7Z26bfmKSyteSmwKBgQD6Xz911IgVBz4Nd69v\nS4xAH9NmN5pcPRf2maeVeEPsQy+BJARJCQ7g1Xn+GdX0pEtTRYGgTTfFPweuttXj\nhVOEB5HXx5PPTDCWMI6rTZEH9lcfH7wVRvWIcpnynn/v116ux3vnYq4a+7mbytYf\njvTeGhR238QXxM0IEF8EoD01wwKBgQC5G//IyhbrMW+UeClln2TquYLVKvaJwNDY\ndgIUY/2IuXTP9iFB1+z0fye6yne7nmeXBO4f/Bhdism0TJta6q2oIrlArs4+1MZo\nVrHWKHn0XyzqSL7fFC5vSDeyYjj5mTRMwVquJhr9rhdUncDoi4K7RaqdDf6aX3Gu\nTk5ktL2/dwKBgQCj+cGsQDen3ghr9Zj2gTonvTBM39m+01xga53wLMX/dLkmERql\nYsNVyTqOiwkvonKa5QjSngAKtQ8pBCHtUyKxc+u2sMVDnRitJLwrwS9dUZ8ZiUU7\ngi/I35Wn6trLj/g46/lgP6bbkUWsnRnDrXL+C4KfoEnjb0cBIwe4FeJA1QKBgFd7\nuRYvFEfRVFeJtp7Vhv87725JYLzXyJwUoYT7gK4mX+ONAki5AL7IfYFVAONFyNVh\nuhyZqvZCinNQpTeBo9LLnlvIgabGLoLPPjrlZEWu2W5cNQD+67ciHViL/TtRQZto\n4i9dyPHNXi9aYvpEPOO+2BRjsclJhFOJpJkJpoefAoGBANbtWEy7xOIyPlkvw+FW\n0GdiTOQe34eZ9rvOiGBPd6qMnkLQUro/k89XTvWv/9xFxWUhZhd4PRza9XGdXvEg\ns0MQwjp5mUhtk7wvsdnslW0WnwRwbrtrN2jk704m5x4lbfvbxcKGmUA/lXyaV9ZV\nVYAgmDgNSkKrwEX9SiJApwiK\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcs-admin@spot-storage.iam.gserviceaccount.com",
+  "client_id": "108313760331471917370",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-admin%40spot-storage.iam.gserviceaccount.com"
+}

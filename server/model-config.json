@@ -40,11 +40,11 @@
     "public": true
   },
   "Unit": {
-    "dataSource": "ds-mongodb",
+    "dataSource": "ds-elastic",
     "public": true
   },
   "Location": {
-    "dataSource": "ds-mongodb",
+    "dataSource": "ds-elastic",
     "public": true
   },
   "Review": {
@@ -58,5 +58,13 @@
   "BaseModel": {
     "dataSource": null,
     "public": false
+  },
+  "Spot": {
+    "dataSource": null,
+    "public": true
+  },
+  "Storage": {
+    "dataSource": "google-storage",
+    "public": true
   }
 }
