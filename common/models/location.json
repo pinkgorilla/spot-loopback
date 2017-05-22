@@ -23,6 +23,11 @@
       "type": [
         "string"
       ]
+    },
+    "tags": {
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],

@@ -26,21 +26,7 @@
       }
     ],
     "apiVersion": "2.3",
-    "mappings": [
-      {
-        "name": "demo",
-        "properties": {
-          "name": {
-            "type": "string",
-            "index": "not_analyzed"
-          },
-          "description": {
-            "type": "string",
-            "index": "not_analyzed"
-          }
-        }
-      }
-    ]
+    "mappings": []
   },
   "google-storage": {
     "name": "regional-bucket-01-us",

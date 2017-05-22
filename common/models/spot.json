@@ -8,7 +8,7 @@
   "properties": {
     "name": {
       "type": "string",
-      "required": false
+      "required": true
     },
     "description": {
       "type": "string"
@@ -19,11 +19,20 @@
     "sub": {
       "type": "string"
     },
+    "address": {
+      "type": "string",
+      "required": true
+    },
     "position": {
       "type": "geopoint",
       "required": false
     },
     "phones": {
+      "type": [
+        "string"
+      ]
+    },
+    "images": {
       "type": [
         "string"
       ]
