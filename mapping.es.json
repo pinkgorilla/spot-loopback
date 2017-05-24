@@ -1,0 +1,125 @@
+{
+    "mappings": {
+        "Location": {
+            "_parent": {
+                "type": "Unit"
+            },
+            "properties": {
+                "address": {
+                    "type": "string"
+                },
+                "phones": {
+                    "type": "string"
+                },
+                "images": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "position": {
+                    "properties": {
+                        "lat": {
+                            "type": "double"
+                        },
+                        "lng": {
+                            "type": "double"
+                        }
+                    }
+                },
+                "tags": {
+                    "type": "string"
+                },
+                "unitId": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_active": {
+                    "type": "boolean",
+                    "index": "no"
+                },
+                "_deleted": {
+                    "type": "boolean",
+                    "index": "no"
+                },
+                "_createAgent": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_createdBy": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_createdDate": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis",
+                    "index": "no"
+                },
+                "_updateAgent": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_updatedBy": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_updatedDate": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis",
+                    "index": "no"
+                }
+            }
+        },
+        "Unit": {
+            "properties": {
+                "category": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "sub": {
+                    "type": "string"
+                },
+                "tags": {
+                    "type": "string"
+                },
+                "_active": {
+                    "type": "boolean",
+                    "index": "no"
+                },
+                "_deleted": {
+                    "type": "boolean",
+                    "index": "no"
+                },
+                "_createAgent": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_createdBy": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_createdDate": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis",
+                    "index": "no"
+                },
+                "_updateAgent": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_updatedBy": {
+                    "type": "string",
+                    "index": "no"
+                },
+                "_updatedDate": {
+                    "type": "date",
+                    "format": "strict_date_optional_time||epoch_millis",
+                    "index": "no"
+                }
+            }
+        }
+    }
+}

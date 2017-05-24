@@ -17,14 +17,12 @@
     "name": "ds-elastic",
     "connector": "es",
     "index": "data",
-    "hosts": [
-      {
-        "protocol": "https",
-        "host": "first-cluster-2943621615.us-east-1.bonsaisearch.net",
-        "port": "443",
-        "auth": "m8nkp2bpba:nkzb3tcj28"
-      }
-    ],
+    "hosts": [{
+      "protocol": "https",
+      "host": "first-cluster-2943621615.us-east-1.bonsaisearch.net",
+      "port": "443",
+      "auth": "m8nkp2bpba:nkzb3tcj28"
+    }],
     "apiVersion": "2.3",
     "mappings": []
   },
