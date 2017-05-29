@@ -1,4 +1,37 @@
 {
+    "settings": {
+        "analysis": {
+            "filter": {
+                "address_stop": {
+                    "type": "stop",
+                    "ignore_case": true,
+                    "stopwords": [
+                        "jl",
+                        "jalan",
+                        "lt",
+                        "lantai",
+                        "gg",
+                        "gang"
+                    ]
+                }
+            },
+            "analyzer": {
+                "address_analyzer": {
+                    "type": "custom",
+                    "tokenizer": "standard",
+                    "char_filter": [
+                        "html_strip"
+                    ],
+                    "filter": [
+                        "lowercase",
+                        "asciifolding",
+                        "word_delimiter",
+                        "address_stop"
+                    ]
+                }
+            }
+        }
+    },
     "mappings": {
         "Location": {
             "_parent": {
@@ -6,7 +39,8 @@
             },
             "properties": {
                 "address": {
-                    "type": "string"
+                    "type": "string",
+                    "analyzer": "address_analyzer"
                 },
                 "phones": {
                     "type": "string"
