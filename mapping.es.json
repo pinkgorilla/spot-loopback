@@ -13,6 +13,11 @@
                         "gg",
                         "gang"
                     ]
+                },
+                "address_ngram": {
+                    "type": "nGram",
+                    "min_gram": 3,
+                    "max_gram": 10
                 }
             },
             "analyzer": {
@@ -26,7 +31,8 @@
                         "lowercase",
                         "asciifolding",
                         "word_delimiter",
-                        "address_stop"
+                        "address_stop",
+                        "address_ngram"
                     ]
                 }
             }
