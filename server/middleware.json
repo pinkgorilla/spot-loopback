@@ -32,9 +32,7 @@
   },
   "session": {},
   "auth": {},
-  "parse": {
-   
-  },
+  "parse": {},
   "routes": {
     "loopback#rest": {
       "paths": [

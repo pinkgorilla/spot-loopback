@@ -1,28 +1,24 @@
 {
-  "name": "Spot",
-  "base": "Model",
+  "name": "Unit-Location",
+  "base": "BaseModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "unit": {
       "type": "string",
       "required": true
     },
     "description": {
       "type": "string"
     },
-    "category": {
-      "type": "string"
-    }, 
     "address": {
       "type": "string",
       "required": true
     },
-    "geolocation": {
-      "type": "geopoint",
-      "required": false
+    "components": {
+      "type": ["string"]
     },
     "phones": {
       "type": [
@@ -34,10 +30,26 @@
         "string"
       ]
     },
+    "geolocation": {
+      "type": "geopoint",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
     "tags": {
       "type": [
         "string"
       ]
+    },
+    "unitId": {
+      "type": "string",
+      "required": true
+    },
+    "locationId": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

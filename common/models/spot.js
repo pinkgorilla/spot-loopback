@@ -13,15 +13,14 @@ module.exports = function(Spot) {
         var unitData = {
             name: data.name,
             description: data.description || "",
-            category: data.category || "",
-            sub: data.sub || "",
+            category: data.category || "", 
             tags: data.tags || []
         };
 
         var locationData = {
             address: data.address,
             phones: data.phones || [],
-            position: data.position,
+            geolocation: data.geolocation,
             images: [],
             tags: data.tags || []
         };

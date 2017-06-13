@@ -66,5 +66,9 @@
   "Storage": {
     "dataSource": "google-storage",
     "public": true
+  },
+  "Unit-Location": {
+    "dataSource": "ds-elastic",
+    "public": true
   }
 }

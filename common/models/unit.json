@@ -16,9 +16,6 @@
     "category": {
       "type": "string"
     },
-    "sub": {
-      "type": "string"
-    },
     "tags": {
       "type": [
         "string"

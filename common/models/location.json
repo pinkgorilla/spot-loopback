@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "position": {
+    "geolocation": {
       "type": "geopoint",
       "required": true
     },
