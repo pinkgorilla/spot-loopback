@@ -8,6 +8,21 @@
   "properties": {},
   "validations": [],
   "relations": {
+    "accessTokens": {
+      "type": "hasMany",
+      "model": "AccountAccessToken",
+      "foreignKey": "accountId"
+    },
+    "identities": {
+      "type": "hasMany",
+      "model": "AccountIdentity",
+      "foreignKey": "accountId"
+    },
+    "credentials": {
+      "type": "hasMany",
+      "model": "AccountCredential",
+      "foreignKey": "accountId"
+    },
     "reviews": {
       "type": "hasMany",
       "model": "Review",

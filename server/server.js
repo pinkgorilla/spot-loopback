@@ -6,13 +6,7 @@ var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
-// app.use(bodyParser.json()); // for parsing application/json
-// app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-// app.use(multer({}).array()); // for parsing multipart/form-data
-// app.use(function(req, res, next){
-//   req.my = "tris";
-//   next();
-// });
+  
 app.start = function() {
   // start the web server
   return app.listen(function() {

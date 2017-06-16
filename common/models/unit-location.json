@@ -18,7 +18,9 @@
       "required": true
     },
     "components": {
-      "type": ["string"]
+      "type": [
+        "string"
+      ]
     },
     "phones": {
       "type": [

@@ -15,7 +15,7 @@
     },
     "category": {
       "type": "string"
-    }, 
+    },
     "address": {
       "type": "string",
       "required": true

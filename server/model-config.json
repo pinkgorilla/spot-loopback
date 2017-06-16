@@ -3,6 +3,7 @@
     "sources": [
       "loopback/common/models",
       "loopback/server/models",
+      "../node_modules/loopback-component-passport/lib/models",
       "../common/models",
       "./models"
     ],
@@ -13,10 +14,23 @@
       "./mixins"
     ]
   },
-  "User": {
-    "dataSource": "db"
+  "BaseModel": {
+    "dataSource": null,
+    "public": false
   },
-  "AccessToken": {
+  "Account": {
+    "dataSource": "db",
+    "public": true
+  },
+  "AccountIdentity": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccountCredential": {
+    "dataSource": "db",
+    "public": false
+  },
+  "AccountAccessToken": {
     "dataSource": "db",
     "public": false
   },
@@ -35,10 +49,6 @@
     "dataSource": "db",
     "public": false
   },
-  "demo": {
-    "dataSource": "ds-elastic",
-    "public": true
-  },
   "Unit": {
     "dataSource": "ds-elastic",
     "public": true
@@ -47,28 +57,20 @@
     "dataSource": "ds-elastic",
     "public": true
   },
+  "Unit-Location": {
+    "dataSource": "ds-elastic",
+    "public": true
+  },
   "Review": {
     "dataSource": "ds-mongodb",
-    "public": true
-  },
-  "Account": {
-    "dataSource": "ds-mongodb",
-    "public": true
-  },
-  "BaseModel": {
-    "dataSource": null,
-    "public": false
-  },
-  "Spot": {
-    "dataSource": null,
     "public": true
   },
   "Storage": {
     "dataSource": "google-storage",
     "public": true
   },
-  "Unit-Location": {
-    "dataSource": "ds-elastic",
+  "Spot": {
+    "dataSource": null,
     "public": true
   }
 }
